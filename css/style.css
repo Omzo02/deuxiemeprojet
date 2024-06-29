@@ -24,6 +24,7 @@ header {
     align-items: center;
     padding: 10px 20px;
     background-color: #fff;
+<<<<<<< HEAD
     /*border-bottom: 1px solid #ddd;*/
 }
 
@@ -31,6 +32,16 @@ header {
     height: 70px;
  }
  nav ul {
+=======
+    border-bottom: 1px solid #ddd;
+}
+
+ .logo {
+    height: 80px;
+ }
+ nav ul {
+    flex-wrap: wrap;
+>>>>>>> e9c99872eae8d0d6d4eefd80dfc4f5041bbc2e07
     list-style: none;
     display: flex;
     gap: 40px;
@@ -43,7 +54,10 @@ header {
  }
 
 nav ul li a {
+<<<<<<< HEAD
 
+=======
+>>>>>>> e9c99872eae8d0d6d4eefd80dfc4f5041bbc2e07
     text-decoration: none;
     color: black;
     font-weight: normal;
@@ -72,11 +86,14 @@ nav ul li a:focus::before {
     background-color: #007BFF; /* Affiche la ligne bleue au survol */
 }
 
+<<<<<<< HEAD
 .container {
     color: black;
     
 }
 
+=======
+>>>>>>> e9c99872eae8d0d6d4eefd80dfc4f5041bbc2e07
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -222,6 +239,7 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+<<<<<<< HEAD
 
      header {
         display: flex;
@@ -255,3 +273,7 @@ a {
     }
     
 }
+=======
+    /* ... */
+}
+>>>>>>> e9c99872eae8d0d6d4eefd80dfc4f5041bbc2e07
